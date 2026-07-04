@@ -1,0 +1,7 @@
+CREATE OR REPLACE STAGE
+INT_STAGE_RETAIL_DEV
+FILE_FORMAT = FF_CSV_STANDARD
+COMMENT = 'Development Internal Stage for Retail Project';
+
+show stages;
+DESC STAGE INT_STAGE_RETAIL_DEV;
